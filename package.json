@@ -5,7 +5,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "stylelint:fix": "stylelint --fix",
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {
     "@emotion/react": "^11.6.0",
@@ -19,6 +21,9 @@
     "@types/react": "17.0.36",
     "eslint": "7",
     "eslint-config-next": "12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
     "typescript": "4.5.2"
   }
 }
