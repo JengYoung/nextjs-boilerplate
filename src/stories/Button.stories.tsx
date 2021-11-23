@@ -1,5 +1,5 @@
 import React from 'react';
-import Button, { ButtonProps } from '../components/Button';
+import Button, { ButtonProps } from '@components/Button';
 
 export default {
   title: 'component/Button',

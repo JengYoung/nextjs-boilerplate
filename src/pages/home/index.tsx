@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import Button from '../../components/Button';
+import Button from 'src/components/Button';
 
 const Message = styled.div`
   color: red;

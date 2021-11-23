@@ -3,10 +3,7 @@ const path = require('path');
 const toPath = (_path) => path.join(process.cwd(), _path);
 
 module.exports = {
-  stories: [
-    '../stories/**/*.stories.mdx',
-    '../stories/**/*.stories.@(js|jsx|ts|tsx)',
-  ],
+  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: ['@storybook/addon-links', '@storybook/addon-essentials'],
   webpackFinal: async (config) => {
     return {
@@ -18,6 +15,7 @@ module.exports = {
           '@emotion/core': toPath('node_modules/@emotion/react'),
           '@emotion/styled': toPath('node_modules/@emotion/styled'),
           'emotion-theming': toPath('node_modules/@emotion/react'),
+          '@components': toPath('src/components'),
         },
       },
     };
