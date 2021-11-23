@@ -7,7 +7,7 @@ interface StyledButtonProps {
   height: number;
 }
 
-interface ButtonProps extends StyledButtonProps {
+export interface ButtonProps extends StyledButtonProps {
   children: string;
 }
 
