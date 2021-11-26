@@ -12,10 +12,15 @@ export interface ButtonProps extends StyledButtonProps {
 }
 
 const StyledButton = styled.button`
+  position: relative;
+  width: 1px;
+  height: 1px;
+  background: orange;
   ${({ width, height }: ButtonProps) =>
     width &&
     height &&
     css`
+      position: relative;
       width: ${width}px;
       height: ${height}px;
       background: orange;

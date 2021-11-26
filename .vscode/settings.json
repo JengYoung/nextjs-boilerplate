@@ -2,12 +2,11 @@
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": true,
   },
-  "eslint.validate":  [
-    "javascript",
-    "typescript",
-    "typescriptreact"
-  ],
   "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "files.insertFinalNewline": true,
 }
