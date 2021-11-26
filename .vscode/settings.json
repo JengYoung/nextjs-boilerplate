@@ -9,4 +9,6 @@
   "less.validate": false,
   "scss.validate": false,
   "files.insertFinalNewline": true,
+  "stylelint.validate": ["css", "scss", ".module.scss"],
+  "stylelint.customSyntax": "@stylelint/postcss-css-in-js"
 }
