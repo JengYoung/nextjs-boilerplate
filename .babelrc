@@ -10,5 +10,14 @@
       }
     ]
   ],
-  "plugins": ["@emotion/babel-plugin"]
+  "plugins": [
+    "@emotion/babel-plugin",     
+    [
+      "module-resolver", {
+        "alias": {
+          "@components": "./src/components"
+        }
+      }
+    ]
+  ]
 }

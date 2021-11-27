@@ -4,21 +4,36 @@ module.exports = {
     es2021: true,
   },
   extends: [
+    'next/core-web-vitals',
     'plugin:react/recommended',
     'airbnb',
-    'prettier',
     'plugin:prettier/recommended',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 12,
+    ecmaVersion: 18,
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
+    'react/react-in-jsx-scope': 'off',
+    'react/function-component-definition': 'off',
+    'react/jsx-props-no-spreading': 'off',
   },
+  // settings: {
+  //   'import/resolver': {
+  //     alias: {
+  //       map: [
+  //         ['src', './src'],
+  //         ['@components', './src/components'],
+  //       ],
+  //       extensions: ['.ts', '.tsx', '.json'],
+  //     },
+  //   },
+  // },
 };

@@ -1,16 +1,16 @@
 import styled from '@emotion/styled';
-import Button from 'src/components/Button';
+import Button from '@components/Button';
 
 const Message = styled.div`
   position: relative;
+  height: 2px;
   display: flex;
-  width: 1px;
   color: '#000000';
+  width: 1px;
 `;
 
 function index() {
   const message: string = 'HI';
-  console.log('hi');
   return (
     <>
       <Message css={{ background: 'blue' }}>{message}</Message>
