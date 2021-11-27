@@ -7,6 +7,7 @@ module.exports = {
     'next/core-web-vitals',
     'plugin:react/recommended',
     'airbnb',
+    'eslint-config-prettier',
     'plugin:prettier/recommended',
     'prettier',
   ],

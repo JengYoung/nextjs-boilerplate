@@ -1,5 +1,6 @@
 {
   "eslint.format.enable": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true,
@@ -9,6 +10,6 @@
   "less.validate": false,
   "scss.validate": false,
   "files.insertFinalNewline": true,
-  "stylelint.validate": ["css", "scss", ".module.scss"],
+  "stylelint.validate": ["typescriptreact"],
   "stylelint.customSyntax": "@stylelint/postcss-css-in-js"
 }
