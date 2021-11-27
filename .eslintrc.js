@@ -25,15 +25,4 @@ module.exports = {
     'react/function-component-definition': 'off',
     'react/jsx-props-no-spreading': 'off',
   },
-  // settings: {
-  //   'import/resolver': {
-  //     alias: {
-  //       map: [
-  //         ['src', './src'],
-  //         ['@components', './src/components'],
-  //       ],
-  //       extensions: ['.ts', '.tsx', '.json'],
-  //     },
-  //   },
-  // },
 };
