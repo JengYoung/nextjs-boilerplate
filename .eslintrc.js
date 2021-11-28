@@ -25,5 +25,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'no-restricted-syntax': 'off',
+    'consistent-return': 'off',
+    'default-param-last': 'off',
   },
 };
