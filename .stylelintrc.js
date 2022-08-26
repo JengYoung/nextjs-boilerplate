@@ -1,9 +1,14 @@
 module.exports = {
-  customSyntax: '@stylelint/postcss-css-in-js',
+  customSyntax: "@stylelint/postcss-css-in-js",
   extends: [
-    'stylelint-config-standard-scss',
-    'stylelint-config-recess-order',
-    'stylelint-prettier/recommended',
+    "stylelint-config-recommended-scss",
+    "stylelint-config-prettier-scss",
+    'stylelint-config-recess-order'
   ],
-  plugins: ['stylelint-scss', 'stylelint-order'],
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "indentation": 2,
+    "no-empty-first-line": null
+  }
 };
